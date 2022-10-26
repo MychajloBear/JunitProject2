@@ -19,7 +19,7 @@ public class TestClass {
 	}
 	
 	@Test
-	void smallerThan100est() {
+	void smallerThan100Test() {
 		boolean expected=ExampleClass.smallerThan100(2);
 		boolean actual=true;
 		assertEquals(expected, actual);
